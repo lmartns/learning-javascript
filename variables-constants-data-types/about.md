@@ -5,8 +5,10 @@ Existem alguns tipos de dados em javascript, alguns deles são:
 - string
 - number
 - boolean
-- null
-- undefined
+- null: Valor nulo, o desenvolvedor que ira colocar
+- undefined: Quando o valor nao foi definido ainda
+- BigInt: O BigInt deve ser usado quando o valor exceder Dois elevado à potência de cinquenta e três.
+- Symbol: Ele é usado para evitar conflitos entre identificadores de objetos. Quando usamos um Symbol como chave de um objeto, essa "etiqueta" se torna única e inacessível para qualquer pessoa que não tenha acesso ao próprio símbolo. Isso garante que, mesmo que alguém tente usar o mesmo nome de identificador, ele não sobrescreva o valor associado ao Symbol.
 
 ## Armazenando esses dados
 
